@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 106 101" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-1159.77,-1327.26)">
+        <g transform="matrix(1.09966,0,0,1.09966,-110.619,240.765)">
+            <g transform="matrix(2.5897,0,0,2.5897,-1220.36,784.803)">
+                <text x="928.948px" y="107.323px" style="font-family:'Exo2-SemiBold', 'Exo 2';font-weight:600;font-size:5.406px;fill:rgb(148,206,26);">IV</text>
+                <text x="934.884px" y="107.323px" style="font-family:'Exo2-SemiBold', 'Exo 2';font-weight:600;font-size:5.406px;fill:rgb(148,206,26);">–</text>
+                <text x="939.052px" y="107.323px" style="font-family:'Exo2-SemiBold', 'Exo 2';font-weight:600;font-size:5.406px;fill:rgb(148,206,26);">V</text>
+                <text x="916.914px" y="113.543px" style="font-family:'Exo2-SemiBold', 'Exo 2';font-weight:600;font-size:5.406px;fill:rgb(148,206,26);">DANGER CLASS</text>
+            </g>
+            <g transform="matrix(0.244076,0,0,0.244076,1175.49,988.027)">
+                <path d="M202,181.669L193.098,181.669C193.245,180.376 193.329,179.065 193.329,177.732L193.329,54.243C193.329,40.911 185.721,29.366 174.613,23.686C169.006,9.801 155.411,0 139.518,0L86.984,0C71.09,0 57.495,9.801 51.887,23.686C40.781,29.366 33.172,40.911 33.172,54.243L33.172,177.732C33.172,179.064 33.256,180.376 33.403,181.669L24.5,181.669C18.978,181.669 14.5,186.147 14.5,191.669L14.5,216.501C14.5,222.023 18.978,226.501 24.5,226.501L202,226.501C207.523,226.501 212,222.023 212,216.501L212,191.669C212,186.146 207.524,181.669 202,181.669Z" style="fill:rgb(148,206,26);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(0.33319,0,0,0.33319,809.476,590.682)">
+                <g transform="matrix(0.212553,0,0,0.212553,1150.62,1224.19)">
+                    <path d="M260.164,32.246C260.164,24.53 249.151,18.275 235.568,18.275L183.843,18.275L183.843,9.136C183.843,4.089 172.83,-0.001 159.247,-0.001L137.485,-0.001C123.902,-0.001 112.889,4.095 112.889,9.136L112.889,18.275L54.692,18.275C41.109,18.275 30.096,24.535 30.096,32.246L30.096,46.216L260.163,46.216C260.164,46.216 260.164,39.962 260.164,32.246Z" style="fill:white;fill-rule:nonzero;"/>
+                </g>
+                <g transform="matrix(0.212553,0,0,0.212553,1150.62,1224.19)">
+                    <path d="M69.749,290.26L220.514,290.26C234.097,290.26 245.11,279.247 245.11,265.664L245.11,56.971L45.153,56.971L45.153,265.664C45.153,279.247 56.166,290.26 69.749,290.26ZM196.423,86.958L221.019,86.958L221.019,254.002L196.423,254.002L196.423,86.958ZM132.838,86.958L157.434,86.958L157.434,254.002L132.838,254.002L132.838,86.958ZM69.245,86.958L93.84,86.958L93.84,254.002L69.245,254.002L69.245,86.958Z" style="fill:white;fill-rule:nonzero;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

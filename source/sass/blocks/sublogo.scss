@@ -1,0 +1,19 @@
+.sublogo__title {
+  font-weight: 600;
+  font-size: 35px;
+  text-transform: uppercase;
+
+  &--footer {
+    color: #ffffff;
+  }
+}
+
+.sublogo__text {
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+
+  &--footer {
+    color: $green;
+  }
+}

@@ -1,0 +1,16 @@
+.nav {
+  background-color: $green;
+  min-height: 47px;
+  display: flex;
+  align-items: stretch;
+
+  &--footer {
+    background-color: transparent;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+}

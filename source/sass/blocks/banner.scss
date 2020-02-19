@@ -1,0 +1,17 @@
+.banner {
+  position: relative;
+  margin-bottom: 40px;
+  min-height: 432px;
+  background-size: cover;
+}
+
+.banner__content {
+  position: absolute;
+  bottom: 50px;
+}
+
+.banner__title {
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-size: 39px;
+}

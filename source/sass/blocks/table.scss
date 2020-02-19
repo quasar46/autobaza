@@ -1,0 +1,26 @@
+table {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+
+  td {
+    outline: 1px solid #DADADA;
+    font-size: 16px;
+  }
+}
+
+.table__title {
+  td {
+    outline: 1px solid $green;
+    font-size: 18px;
+  }
+}
+
+.table--left {
+  text-align: left;
+
+
+  td {
+    padding-left: 20px;
+  }
+}

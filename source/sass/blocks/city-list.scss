@@ -1,0 +1,7 @@
+.city-list li {
+  cursor: pointer;
+
+  &:hover {
+    color: $red-text;
+  }
+}

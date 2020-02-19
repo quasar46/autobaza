@@ -1,0 +1,28 @@
+.info__top {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+
+.info__bottom {
+  display: flex;
+  padding-left: 30px;
+
+}
+
+.info__link {
+  color: $green;
+
+  &:hover {
+    color: #ffffff;
+  }
+
+  &--foot {
+    margin-right: 70px;
+    margin-left: -20px;
+  }
+}
+
+.info__text {
+  padding-left: 10px;
+}

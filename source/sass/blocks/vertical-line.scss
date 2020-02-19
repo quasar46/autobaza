@@ -1,0 +1,9 @@
+.vertical-line {
+  font-style: normal;
+  color: #ffffff;
+  align-self: center;
+
+  &--footer {
+    color: $green;
+  }
+}

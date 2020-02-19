@@ -1,0 +1,26 @@
+.quotes {
+  position: relative;
+  font-size: 28px;
+  font-weight: 500;
+  padding: 0 55px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    background-image: url('../img/quotes-first.png');
+    top: 0;
+    left: 0;
+    width: 25px;
+    height: 28px;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    background-image: url('../img/quotes-second.png');
+    bottom: 0;
+    right: 0;
+    width: 25px;
+    height: 28px;
+  }
+}

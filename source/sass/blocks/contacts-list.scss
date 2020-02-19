@@ -1,0 +1,40 @@
+.contacts-list {
+  li {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+
+    svg {
+      width: 30px;
+    }
+
+    a {
+      font-size: 18px;
+      font-weight: 400;
+    }
+  }
+
+  &--footer {
+    li {
+      color: $green;
+
+      &:hover {
+        color: #ffffff;
+      }
+    }
+
+    a {
+      color: $green;
+
+      &:hover {
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+.contacts-list__number {
+  margin-right: 10px;
+}

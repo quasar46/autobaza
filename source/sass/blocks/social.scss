@@ -1,0 +1,32 @@
+.social {
+  display: flex;
+  justify-content: center;
+
+  div {
+    margin-right: 16px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  svg {
+    transition: all .3s;
+
+    &:hover {
+      transition: all .3s;
+      // transform: rotateZ(180deg);
+      transform: scale(1.2);
+    }
+
+    &:hover path {
+      transition: all .3s;
+      fill: rgb(148, 206, 26) !important;
+    }
+
+    &:hover .path {
+      transition: all .3s;
+      fill: white !important;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.personal {
+  font-size: 13px;
+  font-weight: 700;
+  color: $green;
+  background-color: #ffffff;
+  line-height: 33px;
+  text-transform: uppercase;
+  padding: 0 25px;
+  border: 1px solid $green;
+  align-self: center;
+
+  &--footer {
+    background-color: transparent;
+    color: #ffffff;
+    align-self: flex-end;
+  }
+}

@@ -1,0 +1,37 @@
+.owl-nav {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  top: 110px;
+  font-size: 100px;
+  z-index: -1;
+
+  button.owl-prev {
+    margin-left: -50px !important;
+
+  }
+
+  button.owl-next {
+    margin-right: -50px !important;
+
+  }
+}
+
+.owl-dots {
+  margin-top: -40px !important;
+  position: relative;
+  z-index: 10;
+}
+
+.owl-dot.active {
+  span {
+    background-color: $green !important;
+  }
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+  background-color: transparent !important;
+  color: inherit !important;
+  outline: none;
+}

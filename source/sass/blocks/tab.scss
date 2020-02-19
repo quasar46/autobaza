@@ -1,0 +1,24 @@
+.tab {
+  // overflow: hidden;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.tab__download {
+  display: block;
+  font-weight: 700;
+  padding-left: 30px;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    background-image: url(../img/download.svg);
+    width: 19px;
+    height: 19px;
+    left: 0;
+    top: 50%;
+    margin-top: -9.5px;
+    background-repeat: no-repeat;
+  }
+}

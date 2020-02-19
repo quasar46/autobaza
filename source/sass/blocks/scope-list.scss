@@ -1,0 +1,25 @@
+.scope-list {
+  display: flex;
+  margin-bottom: 48px;
+  margin-left: -50px;
+  margin-right: -50px;
+
+  svg {
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  li {
+    width: calc(100%/5);
+    text-align: center;
+
+    a {
+      display: flex;
+      flex-direction: column;
+      padding: 0 50px;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

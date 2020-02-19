@@ -1,0 +1,15 @@
+.scope {
+  background-color: $gray;
+  padding-bottom: 25px;
+
+  .container {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  span {
+    margin-top: auto;
+    font-weight: 600;
+  }
+}

@@ -1,0 +1,25 @@
+.catalog-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.catalog-list__slider {
+
+  img {
+    height: 332px;
+  }
+}
+
+.catalog-list__item {
+  width: 500px;
+  margin-bottom: 40px;
+}
+
+.catalog-list__title {
+  font-weight: 700;
+}
+
+.catalog-list__text {
+  padding-top: 20px;
+}

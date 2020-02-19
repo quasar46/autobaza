@@ -1,0 +1,18 @@
+.tablinks {
+  font-size: 18px;
+  color: $main-text;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid #E4E4E4;
+  padding: 0 30px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  outline: none;
+  cursor: pointer;
+
+  &.active {
+    background-color: $green;
+    color: #ffffff;
+  }
+}

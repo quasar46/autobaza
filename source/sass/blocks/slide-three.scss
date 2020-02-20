@@ -1,0 +1,14 @@
+.slide-three {
+  .owl-dot {
+    span {
+      width: 14px !important;
+      height: 14px !important;
+    }
+  }
+
+  .owl-dot.active {
+    span {
+      background: $green !important;
+    }
+  }
+}

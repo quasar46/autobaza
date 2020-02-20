@@ -26,3 +26,9 @@
 .info__text {
   padding-left: 10px;
 }
+
+.info {
+  @media(max-width: 767.98px) {
+    display: none;
+  }
+}

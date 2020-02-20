@@ -4,4 +4,8 @@
   &:hover {
     color: $red-text;
   }
+
+  @media(max-width: 767.98px) {
+    display: none;
+  }
 }

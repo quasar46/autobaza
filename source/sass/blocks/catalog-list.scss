@@ -4,16 +4,13 @@
   flex-wrap: wrap;
 }
 
-.catalog-list__slider {
-
-  img {
-    height: 332px;
-  }
-}
-
 .catalog-list__item {
   width: 500px;
   margin-bottom: 40px;
+
+  @media(max-width: 767.98px) {
+    width: 100%;
+  }
 }
 
 .catalog-list__title {

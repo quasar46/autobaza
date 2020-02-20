@@ -1,37 +1,45 @@
-.owl-nav {
+.owl-prev {
+  background-image: url(../img/owl-prev.svg) !important;
+  background-repeat: no-repeat !important;
+  width: 30px;
+  height: 30px;
+  top: 270px;
   position: absolute;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  top: 110px;
-  font-size: 100px;
-  z-index: -1;
+  left: -40px;
 
-  button.owl-prev {
-    margin-left: -50px !important;
-
+  &:hover {
+    background-color: transparent !important;
+    color: transparent !important;
   }
 
-  button.owl-next {
-    margin-right: -50px !important;
-
-  }
-}
-
-.owl-dots {
-  margin-top: -40px !important;
-  position: relative;
-  z-index: 10;
-}
-
-.owl-dot.active {
   span {
-    background-color: $green !important;
+    display: none;
+  }
+
+  @media(max-width: 767.98px) {
+    top: 150px;
   }
 }
 
-.owl-theme .owl-nav [class*='owl-']:hover {
-  background-color: transparent !important;
-  color: inherit !important;
-  outline: none;
+.owl-next {
+  background-image: url(../img/owl-next.svg) !important;
+  background-repeat: no-repeat !important;
+  width: 30px;
+  height: 30px;
+  top: 270px;
+  position: absolute;
+  right: -40px;
+
+  &:hover {
+    background-color: transparent !important;
+    color: transparent !important;
+  }
+
+  span {
+    display: none;
+  }
+
+  @media(max-width: 767.98px) {
+    top: 150px;
+  }
 }

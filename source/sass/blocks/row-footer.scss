@@ -3,3 +3,11 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.row-footer {
+  .logo {
+    @media(max-width: 767.98px) {
+      display: none;
+    }
+  }
+}

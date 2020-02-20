@@ -1,3 +1,9 @@
+.sublogo {
+  @media(max-width: 767.98px) {
+    display: none;
+  }
+}
+
 .sublogo__title {
   font-weight: 600;
   font-size: 35px;

@@ -1,6 +1,7 @@
 .nav-list {
   display: flex;
   align-items: stretch;
+  flex-wrap: wrap;
 
   li {
     position: relative;
@@ -12,8 +13,9 @@
     &::after {
       content: "|";
       position: absolute;
-      right: -4px;
-      top: 11px;
+      right: -3px;
+      top: 50%;
+      margin-top: -12px;
     }
 
     &.active,
@@ -23,12 +25,26 @@
       a {
         color: $main-text;
       }
+
+      &::before {
+        content: "";
+        position: absolute;
+        right: -2px;
+        top: 0;
+        background-color: #ffffff;
+        width: 2px;
+        height: 100%;
+      }
     }
 
     a {
       color: #ffffff;
       font-size: 18px;
       font-weight: 400;
+
+      @media(max-width: 1199.98px) {
+        font-size: 16px;
+      }
     }
 
 
@@ -54,6 +70,10 @@
       a.active {
         color: #ffffff;
       }
+    }
+
+    @media(max-width: 767.98px) {
+      display: none;
     }
   }
 }

@@ -1,4 +1,8 @@
 .logo-wrap {
   display: flex;
   margin-right: auto;
+
+  @media(max-width: 767.98px) {
+    position: absolute;
+  }
 }

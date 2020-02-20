@@ -8,10 +8,44 @@
   padding: 0 25px;
   border: 1px solid $green;
   align-self: center;
+  white-space: nowrap;
+
+  @media(max-width: 767.98px) {
+    margin: auto;
+  }
+
+  &--mobile {
+    background-color: $green;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+
+    @media(max-width: 767.98px) {
+      display: block;
+    }
+  }
+
+  &:hover {
+    color: #ffffff;
+    background-color: $green;
+    outline: 1px solid #ffffff;
+    transition: all .3s;
+  }
 
   &--footer {
     background-color: transparent;
     color: #ffffff;
     align-self: flex-end;
+
+    &:hover {
+      color: $green;
+      background-color: #ffffff;
+      outline: 1px solid $green;
+      transition: all .3s;
+    }
+
+    @media(max-width: 767.98px) {
+      display: none;
+    }
   }
 }

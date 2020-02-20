@@ -22,5 +22,10 @@ table {
 
   td {
     padding-left: 20px;
+
+    @media(max-width: 575.98px) {
+      padding: 0px;
+      font-size: 13px;
+    }
   }
 }

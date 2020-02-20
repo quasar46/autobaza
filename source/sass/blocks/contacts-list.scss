@@ -6,6 +6,10 @@
     font-weight: 400;
     margin-bottom: 10px;
 
+    @media(max-width: 767.98px) {
+      font-size: 14px !important;
+    }
+
     svg {
       width: 30px;
     }
@@ -13,6 +17,10 @@
     a {
       font-size: 18px;
       font-weight: 400;
+
+      @media(max-width: 767.98px) {
+        font-size: 14px;
+      }
     }
   }
 
@@ -37,4 +45,21 @@
 
 .contacts-list__number {
   margin-right: 10px;
+
+  &:last-child {
+    @media(max-width: 1023.98px) {
+      padding-left: 30px;
+    }
+  }
+}
+
+.contacts-list__tel {
+  @media(max-width: 1023.98px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  a {
+    margin-bottom: 10px;
+  }
 }

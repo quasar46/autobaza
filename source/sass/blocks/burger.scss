@@ -1,0 +1,11 @@
+.burger {
+  position: absolute;
+  right: 15px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+
+  @media(max-width: 767.98px) {
+    display: block;
+  }
+}

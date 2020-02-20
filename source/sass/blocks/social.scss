@@ -29,4 +29,27 @@
       fill: white !important;
     }
   }
+
+  @media(max-width: 767.98px) {
+    display: none;
+  }
+}
+
+.social--footer {
+  @media(max-width: 767.98px) {
+    display: flex;
+    justify-content: right;
+
+    div {
+      margin-right: 14px;
+
+      &:first-child {
+        margin-left: auto;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
 }

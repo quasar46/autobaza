@@ -1,40 +1,72 @@
 .clarity {
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #ffffff;
-  display: inline-block;
   margin-top: auto;
-  padding: 40px 90px;
-}
+  background-color: rgba(0, 0, 0, 0.6);
+  padding-top: 20px;
+  // padding-left: 90px;
+  // padding-right: 90px;
+  padding-bottom: 20px;
+  max-width: 890px;
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
 
-.clarity__title {
-  font-size: 57px;
-  font-weight: 400;
-  margin-bottom: 10px;
-}
-
-.clarity__text {
-  margin-bottom: 10px;
-  font-size: 18px;
-  font-weight: 700;
-}
-
-.clarity__list {
-  li {
-    position: relative;
-    font-size: 18px;
-    font-weight: 400;
-
-    &::after {
-      content: "";
-      position: absolute;
-      left: 0;
-      top: 50%;
-      margin-top: -3.2px;
-      width: 6.4px;
-      height: 6.4px;
-      background-color: $green;
-      border-radius: 50%;
-    }
+  @media(max-width: 767.98px) {
+    background-color: $dark-gray;
+    height: 77px;
   }
 }
+
+// .clarity__title {
+//   font-size: 57px;
+//   font-weight: 400;
+//   margin-bottom: 10px;
+
+//   @media(max-width: 767.98px) {
+//     font-size: 16px;
+//     font-weight: 400;
+//   }
+// }
+
+// .clarity__text {
+//   margin-bottom: 10px;
+//   font-size: 18px;
+//   font-weight: 700;
+
+//   @media(max-width: 767.98px) {
+//     display: none;
+//   }
+// }
+
+// .clarity__list {
+//   li {
+//     position: relative;
+//     font-size: 18px;
+//     font-weight: 400;
+
+//     // &::after {
+//     //   content: "";
+//     //   position: absolute;
+//     //   left: 0;
+//     //   top: 50%;
+//     //   margin-top: -3.2px;
+//     //   width: 6.4px;
+//     //   height: 6.4px;
+//     //   background-color: $green;
+//     //   border-radius: 50%;
+//     // }
+//   }
+
+//   @media(max-width: 767.98px) {
+//     display: none;
+//   }
+// }
+
+// .clarity__point {
+//   display: inline-block;
+//   width: 6.4px;
+//   height: 6.4px;
+//   background-color: #94ce1a;
+//   border-radius: 50%;
+//   margin-bottom: 3px;
+//   margin-right: 10px;
+// }

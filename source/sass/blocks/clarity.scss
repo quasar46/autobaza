@@ -10,6 +10,18 @@
   overflow: hidden;
   box-sizing: border-box;
 
+  .owl-dots {
+    @media(max-width: 767.98px) {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      margin: auto;
+      bottom: -10px;
+      left: 0;
+      right: 0;
+    }
+  }
+
   @media(max-width: 767.98px) {
     background-color: $dark-gray;
     height: 77px;

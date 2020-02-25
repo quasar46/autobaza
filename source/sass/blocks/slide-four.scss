@@ -5,16 +5,12 @@
   .owl-prev {
     position: absolute;
     left: 0;
-    top: 0;
+    top: calc(50% - 30px);
   }
 
   .owl-next {
     position: absolute;
     right: 0;
-    top: 0;
-  }
-
-  span {
-    font-weight: 400;
+    top: calc(50% - 30px);
   }
 }

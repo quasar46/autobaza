@@ -10,7 +10,18 @@
     text-transform: uppercase;
   }
 
-  button {
+  select {
+    font-size: 14px;
+    color: $red-text;
+    font-weight: 700;
+    appearance: none;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    background-color: transparent;
+  }
+
+  span {
     color: #919191;
     text-decoration: underline;
     font-size: 12px;
@@ -19,5 +30,11 @@
     padding: 0;
     margin-bottom: 10px;
     cursor: pointer;
+    appearance: none;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
   }
 }

@@ -1,8 +1,11 @@
 .rightimg {
   float: right;
   margin-left: 20px;
+  margin-bottom: 20px;
 
-  @media(max-width: 767.98px) {
+  @media(max-width: 575.98px) {
+    float: none;
     margin-left: 0;
+    text-align: center;
   }
 }

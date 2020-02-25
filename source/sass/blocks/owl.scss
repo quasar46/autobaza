@@ -3,7 +3,7 @@
   background-repeat: no-repeat !important;
   width: 30px;
   height: 30px;
-  top: 270px;
+  top: calc(50% - 100px);
   position: absolute;
   left: -40px;
 
@@ -26,7 +26,7 @@
   background-repeat: no-repeat !important;
   width: 30px;
   height: 30px;
-  top: 270px;
+  top: calc(50% - 100px);
   position: absolute;
   right: -40px;
 

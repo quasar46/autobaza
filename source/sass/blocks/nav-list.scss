@@ -3,6 +3,36 @@
   align-items: stretch;
   flex-wrap: wrap;
 
+  .submenu {
+    // opacity: 0;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 100;
+
+    li {
+      color: $main-text;
+      position: relative;
+      background-color: #ffffff;
+      cursor: pointer;
+      border-bottom: 1px solid #ccc;
+      white-space: nowrap;
+      padding: 10px;
+      padding-right: 50px;
+
+      &::after {
+        content: "";
+      }
+
+      a {
+        &:hover {
+          color: $green;
+        }
+      }
+    }
+  }
+
   li {
     position: relative;
     padding: 0 10px;
@@ -60,6 +90,16 @@
 
         a {
           color: #ffffff;
+        }
+
+        &::before {
+          content: "";
+          position: absolute;
+          right: -2px;
+          top: 0;
+          background-color: #ffffff;
+          width: 0;
+          height: 100%;
         }
       }
 

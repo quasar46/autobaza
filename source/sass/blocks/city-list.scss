@@ -1,11 +1,26 @@
 .city-list li {
   cursor: pointer;
+  white-space: nowrap;
 
   &:hover {
     color: $red-text;
   }
 
+  &.active {
+    color: $red-text;
+  }
+
   @media(max-width: 767.98px) {
     display: none;
+  }
+}
+
+.city-list {
+  flex: 0 1 auto;
+
+  li {
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 38px;
   }
 }

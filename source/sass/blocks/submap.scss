@@ -1,0 +1,62 @@
+.submap {
+  position: absolute;
+  z-index: 10;
+  background-color: #ffffff;
+  bottom: 15px;
+  right: 15px;
+  padding: 15px;
+
+  @media(max-width:767.98px) {
+    bottom: -250px;
+  }
+
+  @media(max-width: 400px) {
+    bottom: -345px;
+  }
+
+  @media(max-width: 400px) {
+    flex-direction: column;
+  }
+
+  &.active {
+    display: flex;
+  }
+
+  img {
+    width: 47px;
+    height: 54px;
+    margin-right: 20px;
+
+    @media(max-width: 400px) {
+      align-self: center;
+      margin-right: 0;
+    }
+  }
+
+  ul {
+    max-width: 300px;
+    width: 100%;
+
+    @media(max-width: 767.98px) {
+      max-width: 100%;
+    }
+  }
+
+  li {
+    padding-left: 30px;
+  }
+
+  .tel {
+    background-image: url('../img/tel-map.svg');
+    background-repeat: no-repeat;
+    background-position: 0 6px;
+    background-size: 11px 16px;
+  }
+
+  .address {
+    background-image: url('../img/marker-map.svg');
+    background-repeat: no-repeat;
+    background-position: 0 6px;
+    background-size: 9px 15px;
+  }
+}

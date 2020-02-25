@@ -10,9 +10,11 @@
     line-height: 58px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+    font-weight: 700;
 
     &:hover {
       background-color: $green;
+      color: #ffffff;
     }
 
     @media(max-width: 767.98px) {

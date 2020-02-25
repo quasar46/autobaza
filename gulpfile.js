@@ -49,15 +49,27 @@ gulp.task("js", function () {
 
 gulp.task("images", function () {
   console.log(imagemin);
-  return gulp.src("source/img/*.{jpg, png, svg}")
+  return gulp.src("source/img/*.{jpg, png, svg, gif}")
     .pipe(imagemin([
-      imagemin.optipng({
-        optimizationLevel: 3
+      imagemin.gifsicle({
+        interlaced: true
       }),
       imagemin.mozjpeg({
+        quality: 75,
         progressive: true
       }),
-      imagemin.svgo()
+      imagemin.optipng({
+        optimizationLevel: 5
+      }),
+      imagemin.svgo({
+        plugins: [{
+            removeViewBox: true
+          },
+          {
+            cleanupIDs: false
+          }
+        ]
+      })
     ]))
     .pipe(gulp.dest("build/img"));
 });

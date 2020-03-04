@@ -1,0 +1,18 @@
+.scroll-top {
+  bottom: 20px;
+  position: fixed;
+  right: 110px;
+  overflow: hidden;
+  z-index: 99;
+  width: 28px;
+  height: 27px;
+  background-color: $green;
+
+  @media (max-width: 768px) {
+    right: 20px;
+  }
+
+  @media (max-width: 539px) {
+    right: 10px;
+  }
+}

@@ -7,7 +7,21 @@
 .info__bottom {
   display: flex;
   padding-left: 30px;
+  margin-top: 50px;
+  position: relative;
 
+
+  li {
+    position: relative;
+
+    a {
+      color: #ffffff;
+    }
+
+    &:hover .sub-menu__popup {
+      display: block;
+    }
+  }
 }
 
 .info__link {
@@ -20,6 +34,8 @@
   &--foot {
     margin-right: 70px;
     margin-left: -20px;
+
+
   }
 }
 

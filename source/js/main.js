@@ -78,6 +78,28 @@ for (var i = 0; i < tabs.length; i++) {
   }
 }
 
+// скролл
+var scroll = document.querySelector('scroll-top');
+if (window.innerWidth < 800) {
+  scroll.style.display = "block";
+}
+
+$(window).scroll(function () {
+
+  if ($(this).scrollTop() > 100) {
+    $('.scroll-top').fadeIn();
+  } else {
+    $('.scroll-top').fadeOut();
+  }
+});
+
+$('.scroll-top').click(function () {
+  $('html, body').animate({
+    scrollTop: 0
+  }, 600);
+  return false;
+});
+
 $(document).ready(function () {
   $('.slide-one').owlCarousel({
     loop: false,

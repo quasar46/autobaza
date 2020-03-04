@@ -1,5 +1,5 @@
 .offer {
-  background-image: url('../img/banner.jpg');
+  position: relative;
   height: 657px;
   background-size: cover;
   display: flex;
@@ -7,6 +7,11 @@
   margin-bottom: 35px;
   overflow: hidden;
   background-repeat: no-repeat;
+  img {
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+  }
 
   @media(max-width: 767.98px) {
     background-image: url('../img/banner-mobile.jpg');

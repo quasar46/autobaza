@@ -1,0 +1,13 @@
+.main-footer-top {
+  display: flex;
+}
+
+.main-footer-top__left {
+  flex: 1;
+}
+
+.main-footer-top__right {
+  .social {
+    justify-content: left;
+  }
+}

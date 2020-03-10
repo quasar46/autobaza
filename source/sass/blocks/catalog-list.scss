@@ -5,7 +5,7 @@
 }
 
 .catalog-list__item {
-  width: 500px;
+  width: 50%;
   margin-bottom: 40px;
 
   @media(max-width: 767.98px) {
@@ -19,4 +19,10 @@
 
 .catalog-list__text {
   padding-top: 20px;
+}
+
+.catalog-list__pic {
+  height: 335px;
+  max-width: 500px;
+  width: 100%;
 }
